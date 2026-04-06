@@ -13,14 +13,14 @@ An AI-powered healthcare chatbot that predicts possible diseases based on user s
 
 ## ✨ Features
 
-- **Symptom-based disease prediction** – Select from 132 symptoms, covers 42 diseases.
+- **Symptom-based disease prediction** – Select from 132 symptoms, covering 42 diseases.
 - **Confidence score** – Shows how certain the model is about each prediction.
 - **Severity visualization** – Progress bar + color-coded severity level (Mild/Moderate/Severe).
 - **Disease description & precautions** – Detailed information for each predicted condition.
 - **PDF report download** – Generate a complete consultation report for your doctor.
 - **Consultation history** – Sidebar stores past sessions for easy reference.
 - **Medical disclaimer** – Prominent warning in the sidebar.
-- **Two interfaces** – Terminal-based (`chat_bot.py`) and Streamlit web app (`streamlit_app.py`).
+- **Two interfaces** – Terminal-based (`chat_bot.py`) and Streamlit web app (`streamlit_chatbot.py`).
 
 ---
 
@@ -54,4 +54,23 @@ The project uses two complementary datasets from Kaggle:
 
 ```bash
 git clone https://github.com/yourusername/ai-healthcare-chatbot.git
+
 cd ai-healthcare-chatbot
+```
+
+### 2. Run the Web application
+
+Active Environments
+```bash
+source .venv/bin/activate
+```
+
+Terminal-based
+```bash
+python chat_bot.py
+```
+
+Streamlit web app
+```bash
+streamlit run streamlit_chatbot.py
+```
