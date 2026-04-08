@@ -1,0 +1,5 @@
+scikit-learn
+pandas
+pyttsx3
+streamlit
+fpdf
